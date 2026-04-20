@@ -1,31 +1,14 @@
-function Navbar() {
-  return (
-    <nav>
-      <h2>Code By Sajib</h2>
-    </nav>
-  );
-}
-function Footer() {
-  return (
-    <p>© 2026 Code By Sajib</p>
-  );
-}
-
-function Hero() {
-  return (
-    <div>
-      <h1>Code By Sajib</h1>
-      <p>Welcome to my channel, this is my coding channel, where i share my coding journey</p>
-    </div>
-  );
-}
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Footer />
+        <Navbar title="আমার নতুন চ্যানেল"/>
+      <Hero title="Code By Sajib"
+       description = "Welcome to my channel, this is my coding channel, where i share my coding journey" />
+      <Footer title="© 2026 Code By Sajib" />
     </div>
   );
 }
