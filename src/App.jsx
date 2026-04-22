@@ -7,6 +7,8 @@ function App() {
     <div>
       <h1>Count: {count}</h1>
       <button onClick={() => setCount(count + 1)}>বাড়াও</button>
+      <button onClick={() => setCount(count - 1)}>কমাও</button>
+      <button onClick={() => setCount(0)}>Reset</button>
     </div>
   );
 }
